@@ -1,0 +1,104 @@
+body{
+    font-family: "Roboto", "Arial", sans-serif;
+   margin: 0px 20px 0px 0px;
+}
+
+
+.thumbnail{
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+
+}
+.title{
+    line-height:20px;
+    font-size: 16px;
+    margin-top: 0;
+    font-weight:600;
+    margin-bottom: -8px;
+    
+
+}
+.channel-name{
+    
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.647);
+    display: inline-block;
+     
+}
+.views{ 
+    margin-top: -10px;
+    color: rgba(0, 0, 0, 0.647);
+
+}
+.video-colum{
+    display:inline-block;
+    vertical-align: top;
+    cursor: pointer;
+   
+}
+.video-colum p{
+    font-family: "Roboto", "Arial", sans-serif;
+}
+.thumbnail-box{
+    
+    margin-bottom: 13px;
+   
+
+}
+.video-colum-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 20px;
+    row-gap: 30px;
+    
+
+}
+.channel-box-grid{
+    
+    display: grid;
+    grid-template-columns:45px 1fr 30px ;
+    column-gap: 10px;
+ 
+
+   
+}
+.logo-box{
+    display: inline-block;
+    vertical-align: top;
+    
+       
+
+}
+.details-box{
+    display: inline-block; 
+    
+}
+.channel-logo{
+    width: 45px;
+    border-radius: 50%; 
+    
+}
+
+.option-box{
+    display: inline-block;
+    vertical-align: top;
+  
+}
+.dots{
+    width: 25px;
+    opacity: .7;
+    
+}
+.tick{
+    width: 12px;
+    opacity: .6;
+ 
+}
+.verify-box{
+    display: inline;
+    background: rgb(244, 241, 241);
+    
+    
+    
+}
